@@ -1,0 +1,43 @@
+/* Reset some default styles */
+body, h2, h4, center, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7cbd0;
+    color: #333;
+}
+
+/* Center text */
+center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Certification title styles */
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Certification type (e.g., INTERNSHIP CERTIFICATE) styles */
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
